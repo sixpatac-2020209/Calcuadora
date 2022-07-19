@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="335.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.sduardixpatac.system.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnUno" layoutX="27.0" layoutY="285.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="1" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" height="23.0" radius="10.75" width="22.0" />
+         </effect></Button>
+      <Button fx:id="btnDos" layoutX="87.0" layoutY="285.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="2" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnTres" layoutX="145.0" layoutY="285.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="3" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnCuatro" layoutX="27.0" layoutY="225.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="4" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnCinco" layoutX="87.0" layoutY="225.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="5" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnSeis" layoutX="145.0" layoutY="225.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="6" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnSiete" layoutX="27.0" layoutY="166.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="7" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" />
+         </effect></Button>
+      <Button fx:id="btnOcho" layoutX="87.0" layoutY="167.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="8" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" />
+         </effect></Button>
+      <Button fx:id="btnNueve" layoutX="145.0" layoutY="167.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="9" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnC" layoutX="262.0" layoutY="110.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button4" stylesheets="@../resource/CSSCalculadora.css" text="C" textFill="WHITE">
+         <effect>
+            <InnerShadow choke="0.15" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnCE" layoutX="262.0" layoutY="167.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button4" stylesheets="@../resource/CSSCalculadora.css" text="CE" textFill="WHITE">
+         <effect>
+            <InnerShadow choke="0.15" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnMasMenos" layoutX="27.0" layoutY="343.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="+/-" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnCero" layoutX="87.0" layoutY="343.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="0" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" color="#0006ff" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnPunto" layoutX="145.0" layoutY="343.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="." textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnPorcent" layoutX="203.0" layoutY="343.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="\%" textFill="WHITE">
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnDiv" layoutX="203.0" layoutY="110.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="/" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnPor" layoutX="203.0" layoutY="167.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="*" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnMenos" layoutX="203.0" layoutY="225.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="-" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnMas" layoutX="203.0" layoutY="285.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="+" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnIgual" layoutX="262.0" layoutY="239.0" onAction="#handleButtonAction" prefHeight="142.0" prefWidth="54.0" styleClass="button4" stylesheets="@../resource/CSSCalculadora.css" text="=" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.15" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnXY" layoutX="145.0" layoutY="110.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="X^Y" textFill="WHITE">
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnAbs" layoutX="27.0" layoutY="110.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="abs" textFill="WHITE">
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <Button fx:id="btnRaiz" layoutX="87.0" layoutY="110.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text=" √ " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="23.0" radius="11.0" width="23.0" />
+         </effect></Button>
+      <TextField fx:id="txtPantalla" alignment="CENTER_RIGHT" disable="true" layoutX="24.0" layoutY="36.0" prefHeight="50.0" prefWidth="295.0" promptText="0." stylesheets="@../resource/CSSCalculadora.css">
+         <effect>
+            <InnerShadow height="23.3" radius="11.2" width="23.5" />
+         </effect>
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="23.0" />
+         </font>
+         <styleClass>
+            <String fx:value="Pantalla" />
+            <String fx:value="Pantalla" />
+         </styleClass>
+      </TextField>
+    </children>
+   <effect>
+      <InnerShadow choke="0.53" height="73.43" radius="38.5975" width="82.96" />
+   </effect>
+</AnchorPane>

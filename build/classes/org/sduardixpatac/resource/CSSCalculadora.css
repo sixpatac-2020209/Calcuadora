@@ -1,0 +1,86 @@
+.button1
+{
+    -fx-background-color: #006EFF; 
+    color:#FFFFFF;
+    -fx-background-radius: 15 15 15 15;
+}
+
+.button1:hover
+{
+    -fx-background-color: #003FFF; 
+    color:#FFFFFF;
+    -fx-background-radius: 13 13 13 13;
+    
+}
+.button1:pressed
+{
+    -fx-background-color: #00D3FF; 
+    color:#FFFFFF;
+    -fx-background-radius: 8 8 8 8;
+}
+
+.button2
+{
+    -fx-background-color: #000000; 
+    color: #FFFFFF;
+    -fx-background-radius: 10 10 10 10;
+}
+.button2:hover
+{
+    -fx-background-color: #464646; 
+    color:#FFFFFF;
+    -fx-background-radius: 10 10 10 10;
+    
+}
+.button2:pressed
+{
+    -fx-background-color: #BABABABA; 
+    color: #000000;
+    -fx-background-radius: 10 10 10 10;
+}
+.button3
+{
+    -fx-background-color: #FF0000; 
+    color: #FFFFFF;
+    -fx-background-radius: 10 10 10 10;
+}
+.button3:hover
+{
+    -fx-background-color: #FF6800; 
+    color:#FFFFFF;
+    -fx-background-radius: 10 10 10 10;
+    
+}
+.button3:pressed
+{
+    -fx-background-color: #FFB17F; 
+    color: #000000;
+    -fx-background-radius: 10 10 10 10;
+}
+.button4
+{
+    -fx-background-color: #900C3F; 
+    color: #FFFFFF;
+    -fx-background-radius: 10 10 10 10;
+}
+.button4:hover
+{
+    -fx-background-color: #7B0A36; 
+    color:#FFFFFF;
+    -fx-background-radius: 10 10 10 10;
+    
+}
+.button4:pressed
+{
+    -fx-background-color: #D0105A; 
+    color: #000000;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.Pantalla
+{
+    -fx-background-color:#FFFFFF ; 
+    color: black;
+    -fx-background-radius: 10 10 10 10;
+    
+}
